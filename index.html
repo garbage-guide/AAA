@@ -4,131 +4,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hi海洋之心天空之鏡沙灘車｜汐月教練</title>
-
 <style>
-body{
-  margin:0;
-  font-family:"Noto Sans TC",sans-serif;
-  background:linear-gradient(180deg,#000,#07121a,#000);
-  color:white;
-}
-
-/* HERO */
-.hero{
-  position:relative;
-}
-.hero img{
-  width:100%;
-  height:75vh;
-  object-fit:cover;
-  filter:brightness(0.6);
-}
-.hero-text{
-  position:absolute;
-  bottom:40px;
-  left:20px;
-}
-.hero-text h1{
-  font-size:34px;
-}
-.hero-text p{
-  color:#00c3ff;
-}
-
-/* 浮動CTA */
-.float-btn{
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  background:#00c3ff;
-  padding:15px;
-  border-radius:50%;
-  font-size:22px;
-  text-decoration:none;
-  color:white;
-  box-shadow:0 0 15px rgba(0,195,255,0.6);
-}
-
-/* 區塊 */
-.section{
-  padding:40px 20px;
-}
-.title{
-  font-size:24px;
-  border-left:4px solid #00c3ff;
-  padding-left:10px;
-  margin-bottom:20px;
-}
-
-/* 卡片 */
-.card{
-  background:rgba(255,255,255,0.05);
-  margin:15px 0;
-  padding:20px;
-  border-radius:15px;
-  backdrop-filter:blur(10px);
-  transition:0.3s;
-}
-.card:hover{
-  transform:translateY(-6px);
-  box-shadow:0 0 25px rgba(0,195,255,0.4);
-}
-.price{
-  color:#00c3ff;
-  font-size:24px;
-}
-
-/* 圖片滑動 */
-.gallery{
-  display:flex;
-  gap:10px;
-  overflow-x:auto;
-}
-.gallery img{
-  height:200px;
-  border-radius:12px;
-}
-
-/* 預約 */
-input,select{
-  width:100%;
-  padding:10px;
-  margin:10px 0;
-  border-radius:8px;
-  border:none;
-}
-
-.btn{
-  display:block;
-  background:linear-gradient(90deg,#00c3ff,#007bff);
-  padding:15px;
-  text-align:center;
-  border-radius:10px;
-  margin-top:15px;
-  color:white;
-  text-decoration:none;
-}
-
-/* 評價 */
-.review{
-  background:rgba(255,255,255,0.05);
-  padding:15px;
-  border-radius:10px;
-  margin:10px 0;
-}
-
-/* 信任 */
-.trust{
-  line-height:1.8;
-  color:#ccc;
-}
-
+body{margin:0;font-family:"Noto Sans TC",sans-serif;background:linear-gradient(180deg,#000,#07121a,#000);color:white;}
+.hero{position:relative;}
+.hero img{width:100%;height:75vh;object-fit:cover;filter:brightness(0.6);}
+.hero-text{position:absolute;bottom:40px;left:20px;}
+.hero-text h1{font-size:34px;}
+.hero-text p{color:#00c3ff;}
+.float-btn{position:fixed;bottom:20px;right:20px;background:#00c3ff;padding:15px;border-radius:50%;font-size:22px;text-decoration:none;color:white;box-shadow:0 0 15px rgba(0,195,255,0.6);z-index:999;}
+.section{padding:40px 20px;}
+.title{font-size:24px;border-left:4px solid #00c3ff;padding-left:10px;margin-bottom:20px;}
+.card{background:rgba(255,255,255,0.05);margin:15px 0;padding:20px;border-radius:15px;backdrop-filter:blur(10px);transition:0.3s;}
+.card:hover{transform:translateY(-6px);box-shadow:0 0 25px rgba(0,195,255,0.4);}
+.price{color:#00c3ff;font-size:24px;}
+.gallery{display:flex;gap:10px;overflow-x:auto;}
+.gallery img{height:200px;border-radius:12px;}
+input,select{width:100%;padding:12px;margin:10px 0;border-radius:8px;border:none;background:#222;color:white;box-sizing:border-box;}
+.btn{display:block;background:linear-gradient(90deg,#00c3ff,#007bff);padding:15px;text-align:center;border-radius:10px;margin-top:15px;color:white;text-decoration:none;font-weight:bold;cursor:pointer;}
+.review{background:rgba(255,255,255,0.05);padding:15px;border-radius:10px;margin:10px 0;}
+.trust{line-height:1.8;color:#ccc;}
 </style>
 </head>
-
 <body>
 
-<!-- HERO -->
 <div class="hero">
 <img src="https://cdn.phototourl.com/free/2026-04-30-649be56b-7fc5-45f2-b354-1630a30142f0.jpg">
 <div class="hero-text">
@@ -137,7 +35,6 @@ input,select{
 </div>
 </div>
 
-<!-- 圖片 -->
 <div class="section">
 <div class="title">📸 現場畫面</div>
 <div class="gallery">
@@ -148,123 +45,75 @@ input,select{
 </div>
 </div>
 
-<!-- 方案 -->
 <div class="section">
 <div class="title">🔥 熱門方案</div>
-
-<div class="card">
-<h3>經典體驗</h3>
-<p>沙灘車 + 拍照</p>
-<div class="price">$1000</div>
-<p style="font-size:12px;color:#aaa;">※此方案是以一台車為價格，一台車可乘坐兩人。</p>
+<div class="card"><h3>經典體驗</h3><p>沙灘車 + 拍照</p><div class="price">$1000</div><p style="font-size:12px;color:#aaa;">※此方案是以一台車為價格，一台車可乘坐兩人。</p></div>
+<div class="card"><h3>爆紅方案（限量）</h3><p>沙灘車 + 賞鯨 + 空拍</p><div class="price">$799</div><p style="font-size:12px;color:#aaa;">※此方案是一個人為價格。</p></div>
+<div class="card"><h3>單純拍照 40分鐘</h3><p>天空之鏡|天梯|趣味跳拍</p><div class="price">$400</div><p style="font-size:12px;color:#aaa;">※此方案是一個人為價格。</p></div>
+<div class="card"><h3>單純騎車 40分鐘</h3><p>騎車錄影含拍照</p><div class="price">$800</div><p style="font-size:12px;color:#aaa;">※此方案是以一台車為價格。</p></div>
+<div class="card"><h3>日出體驗</h3><p>沙灘車+拍照+空拍</p><div class="price">$1500</div><p style="font-size:12px;color:#aaa;">※此方案是以一台車為價格。</p></div>
 </div>
 
-<div class="card">
-<h3>爆紅方案（限量）</h3>
-<p>沙灘車 + 賞鯨 + 空拍</p>
-<div class="price">$799</div>
-<p style="font-size:12px;color:#aaa;">※天氣影響無法出船，絕不讓你吃虧，此方案是一個人為價格。</p>
-</div>
-
-<div class="card">
-<h3>單純拍照40分鐘</h3>
-<p>天空之鏡|天梯|趣味跳拍</p>
-<div class="price">$400</div>
-<p style="font-size:12px;color:#aaa;">※此方案是一個人為價格。</p>
-</div>
-
-<div class="card">
-  <h3>單純騎車40分鐘</h3>
-  <p>騎車錄影含拍照</p>
-  <div class="price">$800</div>
-  <p style="font-size:12px;color:#aaa;">※此方案是以一台車為價格。</p>
-</div>
-
-<div class="card">
-  <h3>日出體驗</h3>
-  <p>沙灘車+拍照+空拍</p>
-  <div class="price">$1500</div>
-  <p style="font-size:12px;color:#aaa;">※此方案是以一台車為價格，日期記得只能選04:00</p>
-</div>
-
-<!-- 預約系統 -->
 <div class="section">
 <div class="title">📅 立即預約</div>
-
 <div class="card">
-
+<label>選擇方案：</label>
 <select id="plan" onchange="calc()">
-<option value="500">經典體驗 $500</option>
+<option value="1000">經典體驗 $1000</option>
 <option value="799">爆紅方案 $799</option>
-<option value="1200">VIP $1200</option>
+<option value="400">單純拍照 $400</option>
+<option value="800">單純騎車 $800</option>
+<option value="1500">日出體驗 $1500</option>
 </select>
-
-<input type="number" id="people" value="2" min="1" onchange="calc()">
+<label>數量 (車數或人數)：</label>
+<input type="number" id="people" value="1" min="1" onchange="calc()">
+<label>日期：</label>
 <input type="date" id="date">
-
+<label>時段：</label>
 <select id="time">
 <option>早上08:30</option>
 <option>早上10:30</option>
 <option>下午13:00</option>
 <option>下午15:00</option>
 <option>日出04:00</option>
-
 </select>
-
-<h3 id="total">總金額：$0</h3>
-
-<a class="btn" onclick="send()">👉 直接LINE預約</a>
-
+<h3 id="total" style="color:#00c3ff;">總金額：$0</h3>
+<div class="btn" onclick="send()">👉 直接 LINE 預約</div>
 </div>
 </div>
 
-<!-- 評價 -->
 <div class="section">
 <div class="title">⭐ 客人回饋</div>
-
 <div class="review">第一次玩直接愛上，教練超會帶！</div>
 <div class="review">不是一般沙灘車，是一整段回憶</div>
-<div class="review">朋友推薦來，真的差很多</div>
-<div class="review">原來還有其他間，一直以為都是同一家</div>
-<div class="review">花蓮指定店家Hi海洋之心天空之鏡沙灘車</div>
-<div class="review">汐月就是讚~還會給我們自由活動時間好讚</div>
+<div class="review">汐月就是讚~還會給我們自由活動時間</div>
 </div>
 
-<!-- 信任 -->
 <div class="section">
 <div class="title">💬 聯繫方式</div>
-<div class="trust">
-✔ IG:hots20250701<br>
-✔ Line:@872titdk<br><br>
-我不做最便宜<br>
-我做你回去還會想起來的那種
-</div>
+<div class="trust">✔ IG:hots20250701<br>✔ Line:@872titdk<br><br>我不做最便宜，我做你回去還會想起來的那種。</div>
 </div>
 
 <a class="float-btn" href="https://lin.ee/ZyOhUZ8">💬</a>
 
 <script>
 function calc(){
-var plan=document.getElementById("plan").value;
-var people=document.getElementById("people").value;
-var total=plan*people;
-document.getElementById("total").innerText="總金額：$"+total;
+var plan = document.getElementById("plan").value;
+var people = document.getElementById("people").value;
+var total = plan * people;
+document.getElementById("total").innerText = "總金額：$" + total;
 }
-
 function send(){
-var plan=document.getElementById("plan").options[document.getElementById("plan").selectedIndex].text;
-var people=document.getElementById("people").value;
-var date=document.getElementById("date").value;
-var time=document.getElementById("time").value;
-var total=document.getElementById("total").innerText;
-
-var msg="我要預約汐月沙灘車\n方案："+plan+"\n人數："+people+"\n日期："+date+"\n時段："+time+"\n"+total;
-
-window.open("https://line.me/R/msg/text/?"+encodeURIComponent(msg));
+var planText = document.getElementById("plan").options[document.getElementById("plan").selectedIndex].text;
+var people = document.getElementById("people").value;
+var date = document.getElementById("date").value;
+var time = document.getElementById("time").value;
+var total = document.getElementById("total").innerText;
+if(!date){ alert("請選擇日期喔！"); return; }
+var msg = "我要預約汐月沙灘車\n方案：" + planText + "\n數量：" + people + "\n日期：" + date + "\n時段：" + time + "\n" + total;
+window.open("https://line.me/R/msg/text/?" + encodeURIComponent(msg));
 }
-
 calc();
 </script>
-
 </body>
 </html>
